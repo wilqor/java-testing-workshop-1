@@ -5,7 +5,7 @@ import com.workshop.wilqor.testing.StringJoiner;
 
 /**
  * Exercise objective: Use proper test lifecycle annotations on methods
- * to make the test pass successfully.
+ * to make the tests run and pass successfully - do NOT modify method bodies.
  *
  * @author wilqor
  */
