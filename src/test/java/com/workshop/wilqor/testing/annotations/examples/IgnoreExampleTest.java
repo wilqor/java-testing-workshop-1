@@ -22,13 +22,13 @@ public class IgnoreExampleTest {
     // the description is optional
     @Ignore("ignored until null values are allowed")
     @Test
-    public void testPrintingNull() {
+    public void testPrinting_null() {
         // this case will never be run in the scope of test suite
         sut.printInfo(null);
     }
 
     @Test
-    public void testPrintingRegularString() {
+    public void testPrinting_regularString() {
         // this case will run and pass
         sut.printInfo("hello");
     }

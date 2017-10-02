@@ -28,19 +28,19 @@ public class LifecycleExerciseTest {
     }
 
     @Test
-    public void testJoiningOneString() {
+    public void testJoining_oneString() {
         String joined = sut.join("1");
         System.out.println(joined);
     }
 
     @Test
-    public void testJoiningTwoStrings() {
+    public void testJoining_twoStrings() {
         String joined = sut.join("1", "2");
         System.out.println(joined);
     }
 
     @Test
-    public void testJoiningThreeStrings() {
+    public void testJoining_threeStrings() {
         String joined = sut.join("1", "2", "3");
         System.out.println(joined);
     }

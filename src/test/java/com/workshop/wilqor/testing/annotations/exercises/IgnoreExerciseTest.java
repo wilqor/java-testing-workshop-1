@@ -21,19 +21,19 @@ public class IgnoreExerciseTest {
     }
 
     @Test
-    public void testSearchingForPurpose() {
+    public void testSearching_purpose() {
         String answer = sut.search("Why are we here?");
         System.out.println(answer);
     }
 
     @Test
-    public void testSearchingForDirection() {
+    public void testSearching_direction() {
         String answer = sut.search("Where are we heading?");
         System.out.println(answer);
     }
 
     @Test
-    public void testSearchingForFulfillment() {
+    public void testSearching_fulfillment() {
         String answer = sut.search("What is best in life?");
         System.out.println(answer);
     }
