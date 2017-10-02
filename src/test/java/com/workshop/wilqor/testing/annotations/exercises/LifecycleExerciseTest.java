@@ -2,9 +2,6 @@ package com.workshop.wilqor.testing.annotations.exercises;
 
 import com.workshop.wilqor.testing.JoinSequenceProvider;
 import com.workshop.wilqor.testing.StringJoiner;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
 
 /**
  * Exercise objective: Use proper test lifecycle annotations on methods
@@ -17,29 +14,24 @@ public class LifecycleExerciseTest {
 
     private StringJoiner sut;
 
-    @BeforeClass
     public static void prepareJoinSequenceProvider() {
         joinSequenceProvider = new JoinSequenceProvider();
     }
 
-    @Before
     public void prepareStringJoiner() {
         sut = new StringJoiner(joinSequenceProvider);
     }
 
-    @Test
     public void testJoining_oneString() {
         String joined = sut.join("1");
         System.out.println(joined);
     }
 
-    @Test
     public void testJoining_twoStrings() {
         String joined = sut.join("1", "2");
         System.out.println(joined);
     }
 
-    @Test
     public void testJoining_threeStrings() {
         String joined = sut.join("1", "2", "3");
         System.out.println(joined);
