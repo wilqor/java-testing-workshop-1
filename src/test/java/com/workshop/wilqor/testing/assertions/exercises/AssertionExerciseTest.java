@@ -28,7 +28,7 @@ public class AssertionExerciseTest {
     }
 
     @Test
-    public void testInequality_pointsWithDifferentCoordinatesAreNotEqual() {
+    public void assertInequality_pointsWithDifferentCoordinatesAreNotEqual() {
         Point pointA = new Point(10, 15);
         Point pointB = new Point(15, 10);
         // place for your assertion using Assert.
