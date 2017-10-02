@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * Exercise objective: SUT is not working, so we need to ignore all
  * tests in the suite until it is fixed.
- * Tip 0: Try running all tests by right-clicking on package 'com.workshop.wilqor.testing.annotations.exercises' and Run 'Tests'...
+ * Tip 0: Try running all tests by right-clicking on package 'com.workshop.wilqor.testing.annotations.exercises'->Run 'Tests'...
  * Tip 1: Be lazy.
  *
  * @author wilqor
