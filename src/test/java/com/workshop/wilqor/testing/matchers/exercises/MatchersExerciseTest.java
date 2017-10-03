@@ -39,7 +39,7 @@ public class MatchersExerciseTest {
     }
 
     @Test
-    public void assertStringContainsSubstringInTheMiddle() {
+    public void assertStringContainsSubstring() {
         String container = "the password is: qwerty";
         String content = "password";
         // place for your assertion using MatcherAssert.assertThat and proper matcher from Matchers.
