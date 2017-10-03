@@ -1,8 +1,6 @@
 package com.workshop.wilqor.testing.matchers.exercises;
 
 import com.workshop.wilqor.testing.Point;
-import org.hamcrest.MatcherAssert;
-import org.hamcrest.Matchers;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -45,7 +43,6 @@ public class MatchersExerciseTest {
         String container = "the password is: qwerty";
         String content = "password";
         // place for your assertion using MatcherAssert.assertThat and proper matcher from Matchers.
-        MatcherAssert.assertThat(container, Matchers.containsString(content));
     }
 
     @Test
