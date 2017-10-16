@@ -65,7 +65,7 @@ public class MatchersExampleTest {
     @Test
     public void testAllOf_integerInsideRangeInclusive() {
         // each condition has to be true
-        MatcherAssert.assertThat(150, Matchers.anyOf(
+        MatcherAssert.assertThat(150, Matchers.allOf(
                 Matchers.greaterThanOrEqualTo(100),
                 Matchers.lessThanOrEqualTo(150)
         ));
